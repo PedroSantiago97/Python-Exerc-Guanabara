@@ -1,6 +1,6 @@
 obj = input("Digite algo: ")
 
-print("O tipo primitivo desse valor é: %s!" %type(obj))
+print("O tipo primitivo desse valor é: %s!" %type(obj))# type(): Indentifica o tipo do objeto
 print("Só tem espaços? %s!" %(obj.isspace())) # .isspace: Indentifica espaços no objeto
 print("É um número? %s!" %(obj.isnumeric())) # .isnumeric: Indentifica se o objeto é um numero
 print("É alfabético? %s!" %(obj.isalpha())) # .isalpha: Indentifica se o objeto possui letras
