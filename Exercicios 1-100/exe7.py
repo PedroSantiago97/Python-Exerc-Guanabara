@@ -1,3 +1,4 @@
+
 pr = float(input("Primeira nota do aluno: "))
 sg = float(input("Segunda nota do aluno: "))
 

@@ -10,6 +10,7 @@ if ps + ss > ts or ss + ts > ps or ts + ps > ss:
     print('Os segmentos PODEM formar um triangulo')    
 else:
     print('Os segmentos NÃO PODEM formar um triangulo')
+    
 
 # Exemplo de condicional com or
 # Nessa logica, nao posso ter um triangulo se dois dos segmentos somados nao forem maior que o segmento que resta

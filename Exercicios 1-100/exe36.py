@@ -8,6 +8,7 @@ pre = int(input('Quantos anos de financiamento: '))
 
 par = pre*12
 
+
 print(f'Para comprar uma casa de R${casa:.2f} a prestação será de R${casa/par:.2f}')
 if casa/par > sal*0.3:
     

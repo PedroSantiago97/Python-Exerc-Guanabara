@@ -1,3 +1,4 @@
+
 import math
 
 catop = float(input("Comprimento do cateto oposto: "))

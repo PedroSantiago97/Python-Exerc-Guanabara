@@ -1,3 +1,4 @@
+
 dis = int(input("Digite uma distância em metros: "))
 print(f"A medidade de {dis} m corresponde a:")
 print(f"{dis/1000}km")

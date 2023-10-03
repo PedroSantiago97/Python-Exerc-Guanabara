@@ -15,6 +15,7 @@ elif idade <= 19:
 elif idade <= 25:
     print('Classificação: SÊNIOR')
 else: 
+    
     print('Classificação: MASTER')
 
 # Mais um adeno a fazer cogido limpo

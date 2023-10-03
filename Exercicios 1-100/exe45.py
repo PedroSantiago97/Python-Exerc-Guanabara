@@ -31,6 +31,7 @@ else:
     print(f'Computador escolheu {sorteado}')
     print('=-'*15)
     time.sleep(1)
+    
 
 
     if sorteado == 'PEDRA' and escolha == 2:

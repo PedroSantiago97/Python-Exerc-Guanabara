@@ -10,6 +10,7 @@ print('-='*68)
 nump = int(input('Em que número eu pensei? '))
 print('PROCESSANDO...')
 time.sleep(3) # Atrasa a execução do codigo, valor em segundos
+
 if nump > 5 or nump < 0:
     print('Digite um número válido !')
 else:

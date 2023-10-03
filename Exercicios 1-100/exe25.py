@@ -1,3 +1,4 @@
+
 nome = input('Qual o seu nome completo? ')
 nomem = nome.upper()
 si = 'SILVA'

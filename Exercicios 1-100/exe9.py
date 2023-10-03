@@ -1,3 +1,4 @@
+
 num = int(input("Digite um número para ver sua tabuada: "))
 
 print("-" * 12)

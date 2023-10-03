@@ -2,6 +2,7 @@ pri = int(input('Primeiro valor: '))
 seg = int(input('Segundo valor: '))
 ter = int(input('Terceiro valor: '))
 
+
 if pri > seg and pri > ter:
     maior = pri
 elif seg > pri and seg > ter:

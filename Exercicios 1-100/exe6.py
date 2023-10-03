@@ -1,3 +1,4 @@
+
 import math
 
 num = int(input(f"Digite um número: "))

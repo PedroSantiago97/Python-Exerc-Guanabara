@@ -5,3 +5,4 @@ print('Acabou!')
 
 # Adeno ao comando end='' Que deixou os itens na horizontal, mto bom 
 
+

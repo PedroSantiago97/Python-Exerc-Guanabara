@@ -7,4 +7,5 @@ print(f'{Fore.CYAN}Você está prestes a começar uma viagem de {dis:.1f}Km{Styl
 if dis < 200:
     print(f'{Fore.YELLOW}E o preço da sua passagem será de R${dis*0.50:.2f}{Style.RESET_ALL}')
 else: 
-    print(f'{Fore.GREEN}E o preço da sua passagem será de R${dis*0.45:.2f}{Style.RESET_ALL}')
+    print(f'{Fore.GREEN
+             }E o preço da sua passagem será de R${dis*0.45:.2f}{Style.RESET_ALL}')

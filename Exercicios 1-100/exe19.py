@@ -9,6 +9,7 @@ sorteio =[pri, seg, ter, qua]
 sorteado = random.randint(0, len(sorteio)-1)
 print(f"O aluno escolhido foi {sorteio[sorteado]}")
 
+
 # Primeiro contato com Arrays em Python =D
 # Objeto criado com Inputs coletadas do usuário
 # Usei random.randint pra escolher aleatóriamente um valor numérico

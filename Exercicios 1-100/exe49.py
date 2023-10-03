@@ -4,3 +4,4 @@ for c in range(0, 11):
 
 # a Formatação :2 diz ao Python para usar no mínimo 2 espaços para exibir o valor de c
 
+

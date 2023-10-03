@@ -7,4 +7,5 @@ input()
 pygame.event.wait() # Espera após finalizar a reprodução
 
 # Estudo da biblioteca pygame
+
 # Artificio de reprodução de Audio

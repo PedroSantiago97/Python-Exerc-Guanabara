@@ -1,3 +1,4 @@
+
 num = input('Informe um número: ')
 
 print(f'Analisando o número {num} temos: ')

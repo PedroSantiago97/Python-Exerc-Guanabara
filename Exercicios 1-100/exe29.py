@@ -13,4 +13,5 @@ else:
 # Porém com resalvas da biblioteca colorama, que tingiu o codigo
 # importa digitando no codigo: from colorama import Fore, Back, Style, init
 # coloca-se {Fore.RED} {Fore.GREEN} {Fore.BLUE} Na frente do texto e {Style.RESET_ALL} no final do texto mas tudo dentro das aspas
+
 # Segue o exemplo : print(f'{Fore.BLUE} Meu texto {Style.RESET_ALL}')

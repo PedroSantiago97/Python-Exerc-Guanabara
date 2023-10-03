@@ -12,6 +12,7 @@ print(f"Seu primeiro nome tem {len(separado[0])} letras")
 # print(f"Seu primeiro nome tem {nome.find(' ')} letras")
 
 
+
 # .strip(): Retira os espaços do inicio e do final das strings
 # .lower(): Deixa todas as letras minúsculas
 # .upper(): Deixa todas as letras MAIÚSCULAS

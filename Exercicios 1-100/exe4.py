@@ -1,3 +1,4 @@
+
 obj = input("Digite algo: ")
 
 print("O tipo primitivo desse valor é: %s!" %type(obj))# type(): Indentifica o tipo do objeto

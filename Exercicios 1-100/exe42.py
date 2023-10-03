@@ -8,6 +8,7 @@ ts = float(input('Terceiro segmento: '))
 
 
 if ps + ss < ts or ss + ts < ps or ts + ps < ss:
+    
     print('Os segmentos NÃO PODEM formar um triangulo')   
 else:
     if ps == ss == ts:
