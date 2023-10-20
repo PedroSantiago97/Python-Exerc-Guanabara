@@ -1,7 +1,7 @@
 import datetime
 
 data_atual = datetime.datetime.now().year
-contadormaior = 0 
+contadormaior = 0
 contadormenor = 0
 for c in range(1, 8):
     ano = int(input(f'Em que ano a {c}º pessoa nasceu? '))

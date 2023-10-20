@@ -10,7 +10,7 @@ quantidade_cédulas =[ 0,  0,  0, 0]
 
 # A primeira repetição vai dizer quantas cedulas de cada irei precisar
 # de acordo a posição dela na lista
-# Ex: [50, 20, 10, 1] 
+# Ex: [50, 20, 10, 1]
 #     [2 ,  1,  0, 0] se o valor for 120
 for i in range(len(cédulas)):
     # Na primeira parte da identação, a variável i que sera igual a 0 ira percorrer
@@ -18,17 +18,17 @@ for i in range(len(cédulas)):
     # a quantidade de cedulas que irei precisar
 
     # Ex: se o sque for 1531, como o primeiro valor de cédulas[i] é 50
-    # logo 1531 será dividido, *nesse caso só o inteiro*, por 50 e 
+    # logo 1531 será dividido, *nesse caso só o inteiro*, por 50 e
     # em seguida o valor 30 sera inserido em quantidade_cédulas[i]
     quantidade_cédulas[i] = total // cédulas[i]
 
-    # Na segunda parte da indentação, o total do saque é posto em resto com 
+    # Na segunda parte da indentação, o total do saque é posto em resto com
     # a cédula que foi ultilizada anteriormente, no caso, 50
     # isso serve pra descobrir o valor, que consequentemente será
     # menor que 50, portanto impossivel de continuar a divisão de cédulas
 
     # Ex: se o saque for de 1531, tera como resto dessa operação o valor de 31
-    # pois 1531/50 nao é uma divisão exata, portanto, o resto é o valor 
+    # pois 1531/50 nao é uma divisão exata, portanto, o resto é o valor
     # que se retirado a divisão sera exata
     total %= cédulas[i]
 
@@ -41,12 +41,3 @@ for i in range(len(cédulas)):
 print('='*30)
 print('Volte sempre ao BANCO CEV! Tenha um bom dia!')
 
-    
-
-    
-
-    
-
-
-     
-         

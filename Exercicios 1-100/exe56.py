@@ -14,7 +14,7 @@ for c in range(1, 5):
     sexo = input('Sexo [M/F]: ')
     listasexo += [sexo]
 
-soma = 0   
+soma = 0
 for c in listaidade:
     soma += int(c)
 
@@ -39,7 +39,7 @@ for c in range(0, 4):
 contadorf = 0
 for c in range(0, len(listaidadef)):
     if int(listaidadef[c]) < 20:
-        contadorf += 1 
+        contadorf += 1
 
 
 print(f'A média de idade do grupo é de {Fore.GREEN}{media:.1f}{Style.RESET_ALL} anos.')
