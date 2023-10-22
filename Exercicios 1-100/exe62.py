@@ -27,7 +27,7 @@ while c2 != 0:
            print('PAUSA', end='')
     if c2 == 0:
         print(f'Progressão finalizada com {tc+10} termos mostrados!')
-        
+
         
             
 
