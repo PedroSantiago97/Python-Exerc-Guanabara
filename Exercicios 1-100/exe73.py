@@ -18,3 +18,4 @@ print(f'Os times em ordem alfabética são: {sorted(times)}')
 print('-='*15)
 print(f'O Palmeiras está em {(times.index("Palmeiras")+1)}º lugar!')
 
+i = input('')
