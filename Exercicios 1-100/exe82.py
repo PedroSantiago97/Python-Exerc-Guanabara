@@ -12,7 +12,7 @@ while True:
     op = input('Quer continuar? [S/N] ')
     if op in 'Nn':
         print('-='*50)
-        print(f'A lista complesta é {nums}')
+        print(f'A lista completa é {nums}')
         print(f'A lista dos pares é {par}')
         print(f'A lista dos impares é {spar}')
         break
